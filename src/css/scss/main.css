@@ -1,0 +1,38 @@
+@import url(/Users/brunopaula/Library/Mobile Documents/com~apple~CloudDocs/Lambda/unit1/CSS Layout/User Stretch/src/css/scss/reset.css);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.test {
+  background: url(../../images/bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.test::after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(213, 32, 71, 0.8)), to(rgba(238, 61, 27, 0.8)));
+  background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: -1;
+}
+/*# sourceMappingURL=main.css.map */
