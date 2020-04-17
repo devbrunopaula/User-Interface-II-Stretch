@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/scss/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css">
     <title>Bruno Paula</title>
 </head>
 <body>
@@ -12,19 +13,31 @@
         <header>
             <div class="mobile__menu">
                 <div class="mobile__logo"><img src="./src/images/logo.svg" alt="mobile menu"></div>
-                <a class="mobile__menu--hamburger"href="#"><img src="./src/images/Hamburger Menu.svg" alt="mobile menu"></a>
+                <a class="mobile__menu--hamburger" href="#"><img src="./src/images/Hamburger Menu.svg" alt="mobile menu"></a>
             </div>
 
-        <div class="desktop__menu hide__mobile">
-            <div class="logo"><img src="./src/images/logo.svg" alt="mobile menu"></div>
-        
-            <nav>
-                
-                <ul class="">
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">PROJECTS</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
+        <div class="desktop__menu ">
+            <nav class="">
+                <div class="logo"><img src="./src/images/logo.svg" alt="mobile menu"></div>
+                <div>
+                    <ul class="">
+                        <li><a  class="active__page" href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">PROJECTS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="login">
+                     
+                        <img src="./src/images/USflag.svg" alt="">
+                        <select class="languages">
+                            <option value="1">EN</option>
+                            <option value="2">FR</option>
+                            <option value="3">PT</option>
+                          </select>
+                          <button class="lang__btn">LOGIN</button>
+                    
+                </div>
             </nav>
         </div>
        
@@ -36,11 +49,12 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, voluptas! Vero molestias dignissimos mollitia veritatis, cupiditate odio iusto amet.</p>
     </section>
 
-    <button class="cta__btn">CONTACT</button>
+    <button class="btn cta__btn">CONTACT</button>
 
     </div>  <!-- overlay -->
        
 <div class="container">
+       <div class="cta__wrapper">
         <div class="cta__content">
             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ad accusantium beatae quisquam non quibusdam iusto, quaerat libero minus aliquid molestiae amet, odit, eos similique? Laudantium qui suscipit illo quidem?</p>
@@ -49,25 +63,27 @@
         </div>
 
             <div class="features">
-                <a class="play__btn" href=""><img src="./src/images/Play Button.svg" alt=""></a>
+                <img class="play__btn"src="./src/images/Play Button.svg" alt="">
                 <img class="cta__img" src="./src/images/img1.jpg" alt="">
             </div>
+       </div>
        
         </div> <!-- Container -->
         <div class="projects__wrapper">
             <div class="container">
-        <div class="gallery">
-            <h2>Projects</h2>
+                <h2 class="project__title">Projects</h2>
+                <div class="gallery">
             <div class="gallery__card">
                 <img src="./src/images/pg1.png" alt="">
                 <h3>Preject 1</h3>
             </div>
             <div class="gallery__card">
                 <img src="./src/images/pg1.png" alt="">
-                <h3>Preject 1</h3>
+                <h3>Preject 2</h3>
             </div>
             <div class="gallery__card">
                 <img src="./src/images/pg1.png" alt="">
+                <h3>Preject 3</h3>
                 
             </div>
             
@@ -79,8 +95,13 @@
 
     <div class="focus">
         <div class="container">
-            <h3>Stay Focus</h3>
-            <img src="./src//images/focus.png" alt="">
+            <div class="focus__wrapper">
+                <div>
+                    <h3>Stay Focus</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque nisi quaerat fuga adipisci at ea expedita numquam molestias ut odio aperiam omnis, dolorem, earum atque autem dolorum officiis nam, consectetur maxime quod! Temporibus dolorum non unde consequatur beatae mollitia, iusto provident sed obcaecati reprehenderit animi maiores assumenda, maxime nesciunt deleniti voluptates accusamus nihil? Quae laborum deleniti illo, rem iure error doloremque reprehenderit voluptatibus a quisquam esse tempora officiis possimus enim maiores laudantium dolorem modi odit, ad quaerat, dicta cum vitae. Doloribus quo cum iusto, ipsa corrupti nam, perspiciatis quaerat dolores veritatis atque facilis corporis. Maxime magni at reiciendis. Exercitationem, vero.</p>
+                </div>
+                <img src="./src//images/focus.png" alt="">
+             </div>
         </div>
         
     </div>
@@ -97,6 +118,6 @@
             </div>
     </footer>
     
-  
+  <script src="./src/js/main.js"></script>
 </body>
 </html>
