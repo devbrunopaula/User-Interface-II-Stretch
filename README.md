@@ -19,4 +19,3 @@ The following goals are designed to stretch your knowledge and may require addit
 -- New Feauture
 
 - [X] Build the galerry using grid and no @media query 
-
