@@ -4,7 +4,7 @@ The following goals are designed to stretch your knowledge and may require addit
 - [x] Make your webpage work at different browser widths, including mobile
 - [x] Add CSS animations
 - [x] Design and execute your own wireframe for About, Projects, and Contact pages
-- [x]  Host your website on Netlify.com
+- [x]  Host your website on Netlify.com   ecstatic-perlman-4bfeb3.netlify.app
 - [x]  sticky Nav
 - [x]  Scss
 - [x]  Css Grid
@@ -14,3 +14,9 @@ The following goals are designed to stretch your knowledge and may require addit
 #Mobile Version
 
 - [x] Responsible website
+- [X] @Media query for Iphone in landscape mode..
+
+-- New Feauture
+
+- [X] Build the galerry using grid and no @media query 
+
